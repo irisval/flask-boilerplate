@@ -1,2 +1,2 @@
-from application import CONFIG, app
+from app import app
 from .models import *
