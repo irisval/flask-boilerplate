@@ -1,0 +1,23 @@
+# flask-boilerplate
+
+
+## Installation Instructions:
+
+
+
+### Flask
+Create a config.cfg file at the root level (will need PORT, DEBUG, and SECRET_KEY values at minimum) and then run the below commands.
+
+`pip3 install virtualenv` (skip if already installed)
+`virtualenv venv` 
+`. venv/bin/activate` (Mac) or `. venv/scripts/activate (Windows)`
+`pip3 install -r requirements.txt`
+`python3 run.py`
+
+## Run Instructions:
+
+
+### Flask
+
+`. venv/bin/activate (Mac)` | `. venv/scripts/activate (Windows)`
+`python3 run.py`
