@@ -1,6 +1,17 @@
 {% block content %}
 {% include 'partials/base.html' %}
-{% include 'partials/navbar.html' %}
-<h1>asdF</h1>
+{% set active_page = "index" %}
+
+{% with messages = get_flashed_messages() %}
+  {% if messages %}
+    <ul class=flashes>
+    {% for message in messages %}
+      <li>{{ message }}</li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+{% endwith %}
+
+<h1>Index</h1>
 {% include 'partials/footer.html' %}
 {% endblock %}
